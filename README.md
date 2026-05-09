@@ -3,7 +3,8 @@
 ## Hub & Spoke Recorder Web App
 A front-end–only web application for the Hub & Spoke Speech Collection project that presents visual or text-based stimuli to participants and records their spoken responses. The application captures audio using the [MediaRecorder API](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder?utm_source=chatgpt.com) and, on supported browsers, uses the [File System API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API?utm_source=chatgpt.com) to save recordings as WAV files directly to the participant’s local machine. Browser compatibility for the File System API can be found on [Can I Use](https://caniuse.com/?search=File+System+API&utm_source=chatgpt.com).
 
-
+Live website:
+https://nu-speech-communication-research-group.github.io/hns-recorder/
 
 ## Recommended IDE Setup
 
@@ -31,6 +32,10 @@ Visit [http://localhost:5173](http://localhost:5173) in a browser to test locall
 ```sh
 npm run build
 ```
+
+### Github pages deployment
+- Commit to the `main` branch
+- Github actions will build and deploy to Github pages automatically
 
 ## Testing
 Note: testing is still a work in progress
