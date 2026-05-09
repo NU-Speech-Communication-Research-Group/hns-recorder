@@ -1,0 +1,452 @@
+[
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "ENG",
+    "taskLang": "English",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Tell us about the place or places where you grew up.",
+      "Tell us about your family or other people you are close to.",
+      "Tell us about a big time of celebration in your family or culture.",
+      "Tell us about some food or meals that are important in your family or culture.",
+      "Tell us your first impressions of your current home.",
+      "Tell us about what you like to do in your free time."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "HEB",
+    "taskLang": "Hebrew",
+    "ltr": 0,
+    "font": "",
+    "sentence": [
+      "ספר לנו על המקום (או המקומות) בו גדלת",
+      "ספר לנו על משפחתך או על אחרים שקרובים אליך",
+      "ספר לנו על תקופה של חגיגה גדולה של משפחתך או תרבותך",
+      "ספר לנו על ארוחות או סעודות שחשובות בקרב משפחתך או תרבותך",
+      "ספר לנו מה היתה התרשמותך הראשונית מהבית הנוכחי שלך",
+      "ספר לנו מה אתה אוהב לעשות בזמנך החופשי"
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "HIN",
+    "taskLang": "Hindi",
+    "ltr": 1,
+    "font": "jaipur",
+    "sentence": [
+      "हमे बताऎ जगह या जगहो के बारे मे जंहा आप बडे़ हुऐ?",
+      "हमे बताऎ अपने परिवार या अपने नज़दीकी लोगों के बारे में?",
+      "हमे बताऎ अपने परिवार या संस्कृति में उत्सव मनाने का एक बडा़ अवसर?",
+      "हमे बताऎ कुछ व्यंजन या भोजन जो आपके परिवार या संस्कृति में महत्वपूणॅ हैं?",
+      "हमे बताऎ अपने वतॅमान घर का पहला प्रभाव?",
+      "हमे बताऎ आपको अपने फुरसत के समय में क्या करना पसंद है?"
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "JPN",
+    "taskLang": "Japanese",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "あなたの出身地、もしくは育った場所について教えてください。",
+      "あなたの家族、もしくはあなたと親しい関係にある人について教えてください。",
+      "あなたの家庭で、もしくはあなたが育った文化の中で大きな祝い事について教えてください。",
+      "あなたの家庭で、もしくはあなたが育った文化の中で重要な意味を持つ食べ物や料理について教えてください。",
+      "あなたが現在住んでいる家についての第一印象を教えてください。",
+      "自由時間をどう過ごすかを教えてください。"
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "KOR",
+    "taskLang": "Korean",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "어디서 태어나고 자라셨는지 말씀해 주세요. ",
+      "가족이나 가까운 분들에 대해서 말씀해 주세요. ",
+      "가족끼리나 문화적으로 크게 기념하는 일들이 있으면 말씀해 주세요. ",
+      "가족끼리나 문화적으로 중요한 음식이 있으면 말씀해 주세요. ",
+      "지금 사시는 집에 대한 첫 인상이 어땠는지 말씀해 주세요.",
+      "여가 시간에는 어떤 것을 하고 싶으신지 말씀해 주세요. "
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "PBR",
+    "taskLang": "Brazilian Portuguese",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Fale sobre o local or locais onde você cresceu.",
+      "Fale sobre sua família ou outras pessoas que sejam próximas a você.",
+      "Fale sobre uma festividade de grande importância  em sua família ou sua cultura.",
+      "Fale sobre um tipo de comida ou uma refeição que seja importante em sua família ou sua cultura.",
+      "Fale sobre suas primeiras impressões em relação ao local onde você está morando agora.",
+      "Fale sobre atividades que você gosta de fazer nos seus horários de folga."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "SPA",
+    "taskLang": "Spanish",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Cuéntenos sobre el lugar o lugares en los que creció.",
+      "Cuéntenos acerca de su familia u otras personas cercanas a usted.",
+      "Cuéntenos de un gran momento de celebración en su familia o cultura.",
+      "Cuéntenos algo sobre la comida o las comidas que sean importantes en su familia o de en su cultura.",
+      "Cuéntenos sus primeras impresiones de su casa actual.",
+      "Cuéntenos de lo que le gusta hacer en su tiempo libre."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "TUR",
+    "taskLang": "Turkish",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Büyüdüğünüz yerler hakkında bilgi veriniz.",
+      "Aileniz veya size yakın olan kişi  hakkında bilgi veriniz.",
+      "Aileniz ya da kültürünüzde yapılan büyük kutlamaları anlatınız.",
+      "Aileniz ve kültürünüzde önemli olan yiyecekleri ve yemekleri anlatınız.",
+      "Şu sırada yaşadığınız ev hakkındaki ilk izlenimlerinizi anlatınız.",
+      "Boş zamanlarınızda neler yapmayı seversiniz? Anlatınız."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "VIE",
+    "taskLang": "Vietnamese",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Nói cho tôi biết cái nơi mà bạn đã sinh ra và trưởng thành.",
+      "Nói cho tôi biết về gia đình hoạc những người mà gần gũi và thân tận với bạn.",
+      "Nói cho tôi biết một ngày lễ tết trong gia đình hay trong phong tục của bạn.",
+      "Nói cho tôi biết về những thực phẩm hay bui ăn quang trọng trong gia đình hoạc phong tục của bạn.",
+      "Nói cho tôi biết những cảm nghĩ đầu tiên nơi bạn đang ở.",
+      "Nói cho tôi biết bạn làm gì trong những thì giờ nhàn nhã của bạn."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "MLY",
+    "taskLang": "Malay",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Beritahu kami mengenai tempat di mana anda membesar.",
+      "Beritahu kami tentang keluarga anda atau orang lain anda berdekatan dengan.",
+      "Beritahu kita tentang satu sambutan besar dalam keluarga atau budaya anda.",
+      "Beritahu kami mengenai beberapa makanan yang penting dalam keluarga atau budaya anda.",
+      "Beritahu kami tentang tanggapan-tanggapan awal megenai rumah anda sekarang.",
+      "Beritahu kami tentang apa yang anda suka lakukan dalam masa lapang anda."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "RUN",
+    "taskLang": "Runyankore",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Tell us about the place or places where you grew up.",
+      "Tell us about your family or other people you are close to.",
+      "Tell us about a big time of celebration in your family or culture.",
+      "Tell us about some food or meals that are important in your family or culture.",
+      "Tell us your first impressions of your current home.",
+      "Tell us about what you like to do in your free time."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "IND",
+    "taskLang": "Indonesian",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Ceritakan tempat-tempat dimana anda menjadi besar (membesar).",
+      "Ceritakan tentang keluarga atau orang-orang yang terdekat dengan anda.",
+      "Ceritakan mengenai waktu-waktu penting di keluarga atau daerah anda.",
+      "Ceritakan tentang makan-makanan yang penting di keluarga atau daerah anda.",
+      "Ceritakan mengenai perasaan anda pertama kali mengenai rumah anda sekarang.",
+      "Ceritakan mengenai apa yang anda suka kerjakan di waktu luang anda."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "SIC",
+    "taskLang": "Sicilian",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Dime i posti nechi criscisti.",
+      "Dime na cosa ti tua famigghia u agenti chi sunnu vicinu a ti.",
+      "Dime na cosa chi tua famigghia fa na rani festa u a sua cultura.",
+      "Dime quali mangiari è importanti a tua famigghia u a cultura",
+      "Dime i primi penseri  ti tua casa.",
+      "Dime chi cosa ti piaci a fara quandu sì liberu."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "FAR",
+    "taskLang": "Farsi",
+    "ltr": 0,
+    "font": "",
+    "sentence": [
+      "در مورد مكان يا مكان هايى كه شما در آنجا بزرگ شده ايد به ما بگوييد.",
+      "در مورد خانوادۂ خود و يا افراد ديگر كه به شما نزديک هستند به ما بگوييد.",
+      "در مورد رويدادهاى مهم و يا جشنهاى بزرگ در خانواده و فرهنگ خود به ما بگوييد.",
+      "در مورد برخى از مواد غذايى و يا وعده هاى غذايى كه در خانواده و يا فرهنگ شما مهم هستند به ما بگوييد.",
+      "برداشت اول خود را از محل سكونت فعلى خود به ما بگوييد.",
+      "به ما بگوييد كه دوست داريد در زمانهاى آزاد خود چه كارى انجام دهيد."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "FRA",
+    "taskLang": "French",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Décrivez-nous l'endroit ou les divers endroits où vous avez grandi.",
+      "Parlez-nous de votre famille ou des personnes qui vous sont proches.",
+      "Décrivez-nous une fête qui a une certaine importance dans la vie de votre famille ou bien dans votre culture.",
+      "Est-ce qu'il y a des mets ou des repas qui ont une signification particulière pour votre famille ou dans votre culture ?",
+      "Quand vous êtes arrivé là où vous habitez maintenant, quelles étaient vos impressions immédiates ?  Vos réactions ?",
+      "Qu'est-ce que vous aimez faire dans vos moments libres ?  Vos intérêts, vos passe-temps ?"
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "GIS",
+    "taskLang": "Gishu",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Khubolele is watsoela / kubolele is wazoela.",
+      "Khubolele khusi babanu be muntsu mwenywe.",
+      "Khubolele khu mbuka iye kamasanyu kamakali iwenywe.",
+      "Khubolele khubilyo byesi ukana iwenywe.",
+      "Khubolele khusyesi wambasa khutsu yowo ari.",
+      "Khubolele shesi ukana khokhola iburangisi."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "ICE",
+    "taskLang": "Icelandic",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Segðu okkur frá staðnum eða stöðunum sem þú ólst upp á.",
+      "Segðu okkur frá fjölskyldunni þinni eða öðru fólki sem þú ert náin(n).",
+      "Segðu okkur frá miklum fögnuði í fjölskyldunni þinni eða menningunni þinni.",
+      "Segðu okkur frá einhverjum matartegund eða mat sem er mikilvægur í fjölskyldunni þinni eða menningunni þinni.",
+      "Segðu okkur frá fyrstu hughrifunum sem núverandi heimili þitt gaf þér.",
+      "Segðu okkur frá því hvað þér finnst gaman að gera í frítíma þínum."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "THA",
+    "taskLang": "Thai",
+    "ltr": 1,
+    "font": "Thonburi",
+    "sentence": [
+      "กรุณา บอกเราเกี่ยวกับสถานที่ที่คุณเติบโตขึ้น",
+      "กรุณา บอกเราเกี่ยวกับครอบครัวหรือคนอื่น ๆ ที่คุณใกล้ชิด",
+      "กรุณา บอกเราเกี่ยวกับเวลาของการเฉลิมฉลองใหญ่ในครอบครัวหรือในวัฒนธรรมของ คุณ",
+      "กรุณา บอกเราเกี่ยวกับอาหารที่มีความสำคัญในครอบครัวหรือในวัฒนธรรมของคุณ",
+      "กรุณา บอกความประทับใจแรกในบ้านหลังปัจจุบันของคุณ",
+      "กรุณา บอกเราเกี่ยวกับสิ่งที่คุณชอบทำในเวลาว่าง"
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "GER",
+    "taskLang": "German",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Bitte geben Sie an, wo Sie aufgewachsen sind (mehrere Plätze wenn zutreffend).",
+      "Bitte erzählen Sie uns über Ihre Familie und Freunde, die Ihnen nahe stehen.",
+      "Bitte erzählen Sie uns über ein wichtiges Fest in Ihrer Familie oder Kultur.",
+      "Bitte erzählen Sie uns über ein wichtiges Gericht oder Mahlzeit in Ihrer Familie oder Kultur.",
+      "Bitte geben Sie den ersten Eindruck wieder, der Ihnen einfällt, wenn Sie an Ihr derzeitiges Zuhause denken.",
+      "Bitte erzählen Sie uns, was Sie gerne in Ihrer Freizeit unternehmen."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "GUJ",
+    "taskLang": "Gujarati",
+    "ltr": 1,
+    "font": "Gujarati MT",
+    "sentence": [
+      "તમે જે સ્થળે અથવા સ્થળોએ મોટા થયા હો તે સ્થળો વિષે અમને  જણાવો.",
+      "તમારા પરિવાર વિષે અથવા તમારી નજીક ના લોકો વિષે અમને જણાવો.",
+      "તમારા પરિવારના કે પછી તમારી સંસ્કૃતિ ના કોઈ મોટા પ્રસંગ ( ઉજવણી) વિષે અમને જણાવો.",
+      "તમારા પરિવાર ના કે પછી તમારી સંસ્કૃતિ ના ખોરાક અથવા વાનગીઓ વિષે અમને જણાવો.",
+      "તમરા વર્તમાન ઘર ની પ્રથમ છાપ વિષે અમને જણાવો.",
+      "તમને તમારા નવરાશ ના સમય માં શું કરવુ ગમે તે વિષે અમને જણાવો."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "CMN",
+    "taskLang": "Chinese Simplified",
+    "ltr": 1,
+    "font": "Hei",
+    "sentence": [
+      "请给我们描述你成长时居住过的城市(如果你在多个城市居住过，也请你给我们描述一下那些城市)。",
+      "请给我们描述你的家人或者其他和你亲近的人。",
+      "请告诉我们在你的家里或者文化里的一个重要或者盛大的庆祝活动。",
+      "请告诉我们你的家里或者文化里一些重要的食物或者餐点。",
+      "请告诉我们你对你现在的家的第一印象。",
+      "请告诉我们你闲暇时候喜欢做些什么。"
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "CTW",
+    "taskLang": "Chinese Traditional",
+    "ltr": 1,
+    "font": "LiHei Pro",
+    "sentence": [
+      "請給我們描述你成長時居住過的城市(如果你在多個城市居住過， 也請你給我們描述一下那些城市)。",
+      "請給我們描述你的家人或者其他和你親近的人。",
+      "請告訴我們在你的家裡或者文化裡的一個重要或者盛大的慶祝活動。",
+      "請告訴我們你的家裡或者文化裡一些重要的食物或者餐點。",
+      "請告訴我們你對你現在的家的第一印象。",
+      "請告訴我們你閒暇時候喜歡做些什麼。"
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "RUS",
+    "taskLang": "Russian",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Расскажите о городе или крае, где Вы выросли.",
+      "Расскажите о Вашей семье или о других близких Вам людях.",
+      "Расскажите о большом семейном торжестве или о Вашей культуре.",
+      "Расскажите о традиционных блюдах в Вашей семье или в Вашей культуре.",
+      "Расскажите о первых впечатлениях от Вашего нынешнего дома.",
+      "Расскажите о том, что вы любите делать в свободное время."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "GRE",
+    "taskLang": "Greek",
+    "ltr": 1,
+    "font": "",
+    "sentence": [
+      "Πες μας για τον τόπο η τους τόπους που μεγαλώσες.",
+      "Πες μας για την οικογένειά σου η άλλους ανθρώπους που ειναι κοντά σου.",
+      "Πες μας για μια μεγάλη γιορτή που έχετε στην οικογένειά σου η στον τόπο καταγωγής σου.",
+      "Πες μας για σημαντικά φαγητά η γεύματα που έχετε στην οικογένειά σου η στην χωρά καταγωγής σου.",
+      "Πες μας για τις πρώτες σου εντυπώσεις για το σπιτι που μένεις τώρα.",
+      "Πες μας τι σου αρέσει να κάνεις στον ελεύθερο χρόνο σου."
+    ],
+    "order": 1
+  },
+  {
+    "task_id": 10,
+    "taskCode": "QNA",
+    "taskName": "Question and Answer",
+    "taskLangCode": "CCT",
+    "taskLang": "Cantonese",
+    "ltr": 1,
+    "font": "GRF Chinese Font",
+    "sentence": [
+      "話俾我哋知關於你成長嘅地方.",
+      "話俾我哋知關於你家人或者其他身邊嘅人嘅事.",
+      "話俾我哋知關於你屋企或者地方文化嘅重大節日.",
+      "話俾我哋知關於你屋企或者地方文化嘅一啲重要食品.",
+      "話俾我哋知關於你對你住緊嘅地方嘅第一印象.",
+      "話俾我哋知你得閒果陣鍾意做乜野."
+    ],
+    "order": 1
+  }
+]

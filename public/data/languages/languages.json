@@ -1,0 +1,9 @@
+[
+{"language_id":1, "languageCode":"ENG", "language":"English"},
+{"language_id":29, "languageCode":"FRA", "language":"French"},
+{"language_id":12, "languageCode":"JPN", "language":"Japanese"},
+{"language_id":6, "languageCode":"KOR", "language":"Korean"},
+{"language_id":5, "languageCode":"CMN", "language":"Mandarin Chinese"},
+{"language_id":30, "languageCode":"PBR", "language":"Brazilian Portuguese"},
+{"language_id":13, "languageCode":"SPA", "language":"Spanish"}
+]

@@ -1,0 +1,12 @@
+[
+    {"task_id":1, "file":"HT1.json", "taskName":"HINT List 1", "type":"sentence"},
+    {"task_id":2, "file":"HT2.json", "taskName":"HINT List 2", "type":"sentence"},
+    {"task_id":3, "file":"DHR.json", "taskName":"Declaration of Human Rights", "type":"sentence"},
+    {"task_id":4, "file":"LPP.json", "taskName":"The Little Prince", "type":"sentence"},
+    {"task_id":5, "file":"NWS.json", "taskName":"The North Wind and the Sun", "type":"passage"},
+    {"task_id":6, "file":"stories.json", "taskName":"Story 1 (ENG)", "type":"picture"},
+    {"task_id":7, "file":"stories.json", "taskName":"Story 2 (ENG)", "type":"picture"},
+    {"task_id":8, "file":"stories.json", "taskName":"Story 3 (non-ENG)", "type":"picture"},
+    {"task_id":9, "file":"stories.json", "taskName":"Story 4 (non-ENG)", "type":"picture"},
+    {"task_id":10, "file":"QNA.json", "taskName":"Question and Answer", "type":"series"}
+]
