@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/hns",
+    "build": "vite build --base=/hns-recorder/",
     "preview": "vite preview",
     "test:e2e": "playwright test",
     "lint": "eslint . --fix"
