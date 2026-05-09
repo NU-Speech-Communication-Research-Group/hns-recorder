@@ -37,6 +37,14 @@ npm run build
 - Commit to the `main` branch
 - Github actions will build and deploy to Github pages automatically
 
+In the event that a code revert is needed
+
+```sh
+git log --oneline
+git revert <commit-sha>
+git push
+```
+
 ## Testing
 Note: testing is still a work in progress
 
