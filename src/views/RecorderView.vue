@@ -9,13 +9,28 @@
   </v-container>
   <v-container fluid v-else id="main-container">
     <div class="d-flex align-center justify-center mt-4" v-if="store.selectedTask.type == 'sentence'">
-      <h2 class="font-weight-regular"
-        :class="store.currentItem?.font == 'GRF Chinese Font' ? 'traditional-chinese' : ''">{{
-          store.currentItem?.sentence }}</h2>
+      <h2 class="font-weight-regular text-center" :class="store.currentItem?.font == 'GRF Chinese Font' ? 'traditional-chinese' : ''">
+        <!-- current sentence for sentence-basesd tasks -->
+        <div v-if="store.currentItem?.pinyin && store.showPinyin == true" class="d-flex flex-wrap">
+          <div v-for="(cmnchar, index) in tokenizeChinese(store.currentItem?.sentence)" :key=index 
+          style="width:70px">
+            <div class="text-h6">
+              {{store.currentItem?.pinyin[index] }}
+            </div>
+            <div class="mb-4">
+            {{ cmnchar }}
+            </div>
+          </div>
+        </div>
+        <div v-else>
+          <p>{{store.currentItem?.sentence }}</p>
+        </div>
+        
+      </h2>
     </div>
     <!-- North Wind Sun screenshot -->
     <div v-if="store.selectedTask.type == 'passage'">
-      <v-img :src="'data/materials/nwsImages/' + store.items[0].file">
+      <v-img :src="'data/materials/nwsImages/' + (store.showPinyin && store.items[0].pinyin ? store.items[0].pinyin : store.items[0].file)">
         <template v-slot:placeholder>
           <div class="d-flex align-center justify-center fill-height">
             <v-progress-circular color="grey-lighten-4" indeterminate></v-progress-circular>
@@ -95,6 +110,87 @@ const start = async () => {
   timestamps = "startTime\tendTime\tutterance\n";
   startTime = 0;
   timer = performance.now() / 1000;
+}
+
+//split a line of chinese characters into token and respect punctutation and numbers
+function tokenizeChinese(text) {
+  const tokens = [];
+  let buf = "";
+
+  const isChinese = (c) => /[\u4E00-\u9FFF]/.test(c);
+  const isDigit = (c) => /\d/.test(c);
+
+  const attachToPrev = new Set(["，", "。", "！", "？", "；", "：", ",", "”"]);
+
+  text = text.replace(/\s+/g, "");
+
+  let i = 0;
+
+  while (i < text.length) {
+    const ch = text[i];
+
+    // OPEN QUOTE → start buffer
+    if (ch === "“") {
+      buf += "“";
+      i++;
+      continue;
+    }
+
+    // Chinese character → flush previous buffer if needed
+    if (isChinese(ch)) {
+      buf += ch;
+
+      // attach trailing punctuation cluster
+      while (
+        i + 1 < text.length &&
+        attachToPrev.has(text[i + 1])
+      ) {
+        buf += text[i + 1];
+        i++;
+      }
+
+      tokens.push(buf);
+      buf = "";
+      i++;
+      continue;
+    }
+
+    // number block
+    if (isDigit(ch)) {
+      let start = i;
+
+      while (i < text.length && isDigit(text[i])) i++;
+
+      let token = text.slice(start, i);
+
+      if (text[i] === "、") {
+        token += "、";
+        i++;
+      }
+
+      tokens.push(token);
+      continue;
+    }
+
+    // punctuation that attaches backwards
+    if (attachToPrev.has(ch)) {
+      if (tokens.length) {
+        tokens[tokens.length - 1] += ch;
+      } else {
+        buf += ch;
+      }
+      i++;
+      continue;
+    }
+
+    // fallback
+    buf += ch;
+    i++;
+  }
+
+  if (buf) tokens.push(buf);
+
+  return tokens;
 }
 
 const next = async (retry = false) => {
