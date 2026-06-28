@@ -1,6 +1,6 @@
 <template>
   <v-container fluid v-if="state == 'ready'">
-    <div class="d-flex"><h2>Hub & Spoke Recorder</h2> <div class="ml-auto text-medium-emphasis text-subtitle-2">version 1.4</div></div>
+    <div class="d-flex"><h2>Hub & Spoke Recorder</h2> <div class="ml-auto text-medium-emphasis text-subtitle-2">version 1.5</div></div>
     <div class="d-flex">
       <div class="d-flex flex-column mr-4" style="min-width: 260px;">
         <div class="elevation-1 mb-4">
@@ -33,13 +33,13 @@
                 item-title="language" return-object></v-select>
           </v-form>
         </div>
-
+        
         <div class="elevation-1 mb-4">
           <v-toolbar title="4. Task Type" color="secondary" density="compact"></v-toolbar>
           <v-form class="pa-2">
             <v-select @update:model-value="taskSelected" v-if="tasks" density="compact" label="Task Type" :items="tasks"
-              v-model="store.selectedTask" item-title="taskName" return-object></v-select>
-            
+              v-model="store.selectedTask" item-title="taskName" return-object hide-details></v-select>
+            <v-checkbox v-if="itemsHavePinyin" label="Show Pinyin" hide-details v-model="store.showPinyin"></v-checkbox>  
           </v-form>
         </div>
 
@@ -50,13 +50,17 @@
 
         <!-- text based items-->
         <ul class="ml-8 mt-2 mb-2 mr-2" v-if="store.items != null && store.selectedTask.type == 'sentence'">
-          <li :class="item.font == 'GRF Chinese Font' ? 'traditional-chinese' : ''" v-for="(item, key) in store.items"
-            :key="key">{{ item.sentence }}</li>
+          <li :class="item.font == 'GRF Chinese Font' ? 'traditional-chinese' : ''" v-for="(item, key) in store.items" :key="key">
+            <!-- prompt sentence -->
+            {{ item.sentence }} 
+            <!-- if pinyin exists, display it in the preview-->
+            <span v-if="item.pinyin && store.showPinyin == true"> / {{ item.pinyin.join(" ") }}</span>
+          </li>
         </ul>
 
         <!-- North Wind Sun screenshot -->
         <div v-if="store.items != null && store.selectedTask.type == 'passage'">
-          <v-img width="100%" :src="'data/materials/nwsImages/' + store.items[0].file">
+          <v-img width="100%" :src="'data/materials/nwsImages/' + (store.showPinyin && store.items[0].pinyin ? store.items[0].pinyin : store.items[0].file)">
             <template v-slot:placeholder>
               <div class="d-flex align-center justify-center fill-height">
                 <v-progress-circular color="grey-lighten-4" indeterminate></v-progress-circular>
@@ -180,6 +184,19 @@ async function getLanguageSpecificItems(languageCode) {
   }
 }
 
+const itemsHavePinyin = computed(()=>{
+  if(store.items!=null && store.items.length>0 && store.items[0].pinyin!=null){
+    return true;
+    /* if(store.items[0].pinyin!=null || store.items[0].file == "NWS_CMN.jpg"){
+      return true;
+    } else {
+      return false;
+    } */
+  } else {
+    return false;
+  }
+})
+
 /*
 function filterLanguages() {
   //filter languages based on availabilty
@@ -289,9 +306,6 @@ async function checkFolderForExistingFile(filename){
   }
   return foundFile;
 }
-
-
-
 
 </script>
 

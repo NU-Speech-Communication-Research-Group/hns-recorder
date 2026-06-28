@@ -7,6 +7,7 @@ export const useStore = defineStore('store', () => {
   const l1 = ref(null);
   const selectedTask = ref(null);
   const selectedLanguage = ref(null);
+  const showPinyin = ref(true);
   const filename = ref(null);
   const items = ref(null);  
   const index = ref(0);
@@ -32,5 +33,5 @@ export const useStore = defineStore('store', () => {
     }
   }
 
-  return { pid, gender, l1, selectedTask, selectedLanguage, filename, items, index, currentItem, incrementIndex, directoryHandle, checkFileSupport }
+  return { pid, gender, l1, selectedTask, selectedLanguage, showPinyin, filename, items, index, currentItem, incrementIndex, directoryHandle, checkFileSupport }
 })

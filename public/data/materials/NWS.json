@@ -8,7 +8,7 @@
 {"task_id":5,"taskCode":"NWS","taskName":"The North Wind and the Sun","taskLangCode":"TUR","taskLang":"Turkish","ltr":1,"font":"","file":"NWS_TUR.jpg","order":1},
 {"task_id":5,"taskCode":"NWS","taskName":"The North Wind and the Sun","taskLangCode":"VIE","taskLang":"Vietnamese","ltr":1,"font":"","file":"NWS_VIE.jpg","order":1},
 {"task_id":5,"taskCode":"NWS","taskName":"The North Wind and the Sun","taskLangCode":"CCT","taskLang":"Cantonese","ltr":1,"font":"GRF Chinese Font","file":"NWS_CCT.jpg","order":1},
-{"task_id":5,"taskCode":"NWS","taskName":"The North Wind and the Sun","taskLangCode":"CMN","taskLang":"Chinese Simplified","ltr":1,"font":"Hei","file":"NWS_CMN.jpg","order":1},
+{"task_id":5,"taskCode":"NWS","taskName":"The North Wind and the Sun","taskLangCode":"CMN","taskLang":"Chinese Simplified","ltr":1,"font":"Hei","file":"NWS_CMN.jpg","order":1, "pinyin":"NWS_CMN-pinyin.jpg"},
 {"task_id":5,"taskCode":"NWS","taskName":"The North Wind and the Sun","taskLangCode":"CTW","taskLang":"Chinese Traditional","ltr":1,"font":"LiHei Pro","file":"NWS_CTW.jpg","order":1},
 {"task_id":5,"taskCode":"NWS","taskName":"The North Wind and the Sun","taskLangCode":"FAR","taskLang":"Farsi","ltr":0,"font":"","file":"NWS_FAR.jpg","order":1},
 {"task_id":5,"taskCode":"NWS","taskName":"The North Wind and the Sun","taskLangCode":"FRA","taskLang":"French","ltr":1,"font":"","file":"NWS_FRA.jpg","order":1},
