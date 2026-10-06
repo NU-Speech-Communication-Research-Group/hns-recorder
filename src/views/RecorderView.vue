@@ -12,13 +12,16 @@
       <h2 class="font-weight-regular text-center" :class="store.currentItem?.font == 'GRF Chinese Font' ? 'traditional-chinese' : ''">
         <!-- current sentence for sentence-basesd tasks -->
         <div v-if="store.currentItem?.pinyin && store.showPinyin == true" class="d-flex flex-wrap">
-          <div v-for="(cmnchar, index) in tokenizeChinese(store.currentItem?.sentence)" :key=index 
-          style="width:70px">
-            <div class="text-h6">
-              {{store.currentItem?.pinyin[index] }}
+          <div
+            v-for="(cmnchar, index) in tokenizeChinese(store.currentItem?.sentence)"
+            :key="index"
+            :style="{ width: /\d/.test(cmnchar) ? '110px' : '70px' }"
+          >
+            <div class="text-h6" :style="{ whiteSpace: /\d/.test(cmnchar) ? 'nowrap' : 'normal' }">
+              {{ store.currentItem?.pinyin[index] }}
             </div>
             <div class="mb-4">
-            {{ cmnchar }}
+              {{ cmnchar }}
             </div>
           </div>
         </div>
